@@ -231,6 +231,13 @@ nav a:hover{
   padding: 1px;
 }
 
+.prod-contain{
+  box-sizing: border-box;
+  border: 3px solid black;
+  height: 100%;
+  width: 100%;
+}
+
 .products{
   display: flex;
   flex-wrap: wrap;
@@ -960,6 +967,10 @@ ul{
     padding: 0 28px 0 28px;
     margin-top: 70px;
     margin-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   
   .products{
@@ -1238,14 +1249,14 @@ ul{
     font-size: 29px;
     font-weight: 400;
     line-height: 39px;
-    margin: 0 0 20px 170px;
+    margin: 0 0 20px 70px;
   }
   
   .section9 p{
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
-    margin: 0 0 40px 170px;
+    margin: 0 0 40px 70px;
   }
   
   .slide{
