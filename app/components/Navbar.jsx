@@ -1,6 +1,6 @@
 'use client'
 
-import React,{ useState } from 'react'
+import React,{ useState, useEffect } from 'react'
 import Link from 'next/link'
 import section1 from '../Home/Sections/Section1'
 import { CiMenuFries } from "react-icons/ci";
@@ -9,19 +9,33 @@ import { AiOutlineClose } from "react-icons/ai";
 
 function Navbar() {
     const section = section1()
-    const style = section ? 
-    (window.matchMedia('(max-width: 768px)').matches ? 
-        {
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+      const handleResize = () => {
+        setIsMobile(window.innerWidth <= 768);
+      };
+  
+      handleResize(); 
+      window.addEventListener('resize', handleResize);
+  
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }, []);
+  
+    const style = section
+      ? isMobile
+        ? {
             width: '100%',
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
             boxSizing: 'border-box',
             borderBottom: '1px solid #000',
-            height: '90px'
-        }
-        : 
-        {
+            height: '90px',
+          }
+        : {
             display: 'flex',
             justifyContent: 'space-between',
             alignItems: 'center',
@@ -30,19 +44,17 @@ function Navbar() {
             height: '90px',
             width: '1780px',
             alignSelf: 'center',
-            padding: '0 70px'
-        }
-    )
-    :
-    {
-        display: 'flex',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-        boxSizing: 'border-box',
-        borderBottom: '1px solid #000',
-        height: '90px'
-    };
-
+            padding: '0 70px',
+          }
+      : {
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          boxSizing: 'border-box',
+          borderBottom: '1px solid #000',
+          height: '90px',
+        };
+  
 
 
     const isClicked = true
