@@ -1,6 +1,7 @@
 
 import Link from 'next/link'
 import React from 'react'
+import Image from 'next/image'
 
 function Section6() {
 
@@ -10,10 +11,9 @@ function Section6() {
             <div className="background2">
                 <div className="h1">
                     <h1>ONYX </h1>
-                    <img src="./Images/image.png" alt="x-logo"
-                        loading='lazy'
-                        width='18px'
-                        height='18px'
+                    <Image src="/Images/image.png" alt="x-logo"
+                        width={18}
+                        height={18}
                     />
                     <h1>THE FLOW</h1>
                 </div>

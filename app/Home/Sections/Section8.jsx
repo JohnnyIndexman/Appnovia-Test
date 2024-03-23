@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Section8() {
@@ -6,19 +7,17 @@ function Section8() {
 
             <div className="image7-contain">
                 <div className="images">
-                    <img src="./Images/homeimg2.png"
+                    <Image src="/Images/homeimg2.png"
                         alt="home-image"
-                        loading='lazy'
-                        width='493.31px'
-                        height='697.41px'
+                        width={493.31}
+                        height={697.41}
                     />
                 </div>
                 <div className="images">
-                    <img src="./Images/homeimg1.png"
+                    <Image src="/Images/homeimg1.png"
                         alt="home-image"
-                        loading='lazy'
-                        width='493.31px'
-                        height='697.41px'
+                        width={493.31}
+                        height={697.41}
                     />
                 </div>
             </div>

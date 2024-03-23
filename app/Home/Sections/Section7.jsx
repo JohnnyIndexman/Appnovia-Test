@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Section7() {
     return (
@@ -8,11 +9,10 @@ function Section7() {
             </h2>
             <div className="arrow2">
                 <p>E-mail address</p>
-                <img src="./Images/Vector.png"
+                <Image src="/Images/Vector.png"
                     alt="arrow"
-                    loading='lazy'
-                    width='35.88px'
-                    height='17px'
+                    width={35.88}
+                    height={17}
                 />
             </div>
         </div>

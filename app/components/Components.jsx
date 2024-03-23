@@ -84,37 +84,37 @@ export default function Components() {
             {
                 id: 1,
                 src: '/Images/instagram-img-2.png',
-                width:'308.56px'
+                width: 308.56
             },
             {
                 id: 2,
                 src: '/Images/instagram-img-3.png',
-                width:'308.56px'
+                width: 308.56
             },
             {
                 id: 3,
                 src: '/Images/instagram-img-4.png',
-                width:'308.56px'
+                width: 308.56
             },
             {
                 id: 4,
                 src: '/Images/instagram-img-5.png',
-                width:'308.56px'
+                width: 308.56
             },
             {
                 id: 5,
                 src: '/Images/instagram-img-6.png',
-                width:'308.56px'
+                width: 308.56
             },
             {
                 id: 6,
                 src: '/Images/instagram-img-7.png',
-                width:'308.56px'
+                width: 308.56
             },
             {
                 id: 7,
                 src: '/Images/instagram-img-1.png',
-                width:'308.56px'
+                width: 308.56
             }
         ]
 

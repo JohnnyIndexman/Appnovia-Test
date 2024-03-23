@@ -8,6 +8,8 @@ import Section6 from './Home/Sections/Section6'
 import Section7 from './Home/Sections/Section7'
 import Section8 from './Home/Sections/Section8'
 import Section9 from './Home/Sections/Section9'
+import { Suspense } from 'react'
+import Loading from './Loading'
 
 export default function Home() {
   return (
@@ -15,7 +17,9 @@ export default function Home() {
       <div className='home'>
         <Section1 />
         <Section2 />
-        <Section3 />
+        <Suspense fallback={<Loading />}>
+          <Section3 />
+        </Suspense>
         <Section4 />
         <Section5 />
         <Section6 />

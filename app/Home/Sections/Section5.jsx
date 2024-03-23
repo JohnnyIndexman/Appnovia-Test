@@ -1,56 +1,52 @@
 import React from 'react'
+import Image from 'next/image';
 
 function Section5() {
     return (
         <div className='section5'>
-            <img src="./Images/quote.png"
+            <Image src="/Images/quote.png"
                 alt="quote-logo" loading='lazy'
-                width='33px'
-                height='28.59px'
+                width={33}
+                height={28.59}
                 className='five-img'
             />
             <p>Accusantium doloremque laudantium, totam rem aperiam. Sed ut<br />
                 perspiciatis unde omnis iste natus error sit voluptatem.
             </p>
-            <img src="./Images/svg (9).png"
+            <Image src="/Images/svg (9).png"
                         alt="client-logo"
-                        loading='lazy'
-                        width='12.25px'
-                        height='12.25px'
+                        width={12.25}
+                        height={12.25}
                     />
 
             <div className="logos">
-                <img src="./Images/client1.png"
+                <Image src="/Images/client1.png"
                     alt="client-logo"
-                    loading='lazy'
-                    height='35.31px'
-                    width='182.8px'
+                    height={35.31}
+                    width={182.8}
                 />
-                <img src="./Images/client2.png"
+                <Image src="/Images/client2.png"
                     alt="client-logo"
-                    loading='lazy'
-                    height='35.31px'
-                    width='182.8px'
+                    height={35.31}
+                    width={182.8}
                 />
                 <div className="mag">
-                    <img src="./Images/client3.png"
+                    <Image src="/Images/client3.png"
                         alt="client-logo"
-                        loading='lazy'
-                        height='35.31px'
-                        width='182.8px'
+
+                        height={35.31}
+                        width={182.8}
                     />
                 </div>
 
-                <img src="./Images/client5.png"
+                <Image src="/Images/client5.png"
                     alt="client-logo"
-                    loading='lazy'
-                    height='35.31px'
-                    width='182.8px'
+                    height={35.31}
+                    width={182.8}
                 />
 
                 <img src="./Images/client4.png"
                     alt="client-logo"
-                    loading='lazy'
                     height='35.31px'
                     width='182.8px'
                 />

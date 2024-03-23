@@ -2,6 +2,7 @@
 import React from 'react'
 import Link from 'next/link'
 import Components from '@/app/components/Components'
+import Image from 'next/image'
 
 function Section3() {
 
@@ -41,15 +42,15 @@ function Section3() {
               </div> : null}
 
               <div className="eyecon">
-                <img src="Images/svg (1).png"
-                  alt="notification-logo" loading='lazy'
-                  height='15px'
-                  width='13px'
+                <Image src="/Images/svg (1).png"
+                  alt="notification-logo" 
+                  height={15}
+                  width={13}
                 />
-                <img src="Images/eye.png"
-                  alt="eye-logo" loading='lazy'
-                  width='16x'
-                  height='9.05px'
+                <Image src="/Images/eye.png"
+                  alt="eye-logo" 
+                  width={16}
+                  height={9.05}
                 />
               </div>
             </div>
@@ -63,11 +64,10 @@ function Section3() {
             </div>
             <div className="line"></div>
             <div className="cart">
-              <img src="./Images/cartbutton.png"
+              <Image src="/Images/cartbutton.png"
                 alt="notification-logo"
-                loading='lazy'
-                width='12px'
-                height='15.68px'
+                width={12}
+                height={15.68}
               />
             </div>
 

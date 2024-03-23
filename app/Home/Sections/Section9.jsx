@@ -5,6 +5,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from 'react-slick';
+import Image from 'next/image';
 
 function Section9() {
 
@@ -37,10 +38,10 @@ function Section9() {
                         key={s.id}>
 
                         <div className="slider-contain">
-                            <img src={s.src}
+                            <Image src={s.src}
                                 alt="instagram-image"
                                 width={s.width}
-                                height='308.56px'
+                                height={308.56}
                             />
                         </div>
 
@@ -53,11 +54,10 @@ function Section9() {
             <div className="insta-slide">
                 <div className="slides">
                     <div className="slide-imag">
-                        <img src="./Images/Frame (1).png"
+                        <Image src="/Images/Frame (1).png"
                             alt="svg"
-                            loading='lazy'
-                            width='24px'
-                            height='6.5px'
+                            width={24}
+                            height={6.5}
                         />
                         FAST DELIVERY
                     </div>
@@ -65,11 +65,10 @@ function Section9() {
                 <div className="heighted"></div>
                 <div className="slides">
                     <div className="slide-imag">
-                        <img src="./Images/svg (10).png"
+                        <Image src="/Images/svg (10).png"
                             alt="svg"
-                            loading='lazy'
-                            width='35px'
-                            height='10.94px'
+                            width={35}
+                            height={10.94}
                         />
                         FREE RETURNS
                     </div>
@@ -77,11 +76,10 @@ function Section9() {
                 <div className="heighted"></div>
                 <div className="slides">
                     <div className="slide-imag">
-                        <img src="./Images/svg (11).png"
+                        <Image src="/Images/svg (11).png"
                             alt="svg"
-                            loading='lazy'
-                            width='14px'
-                            height='15.94px'
+                            width={14}
+                            height={15.94}
                         />
                         SECURE CHECKOUT
                     </div>
@@ -89,11 +87,10 @@ function Section9() {
                 <div className="heighted"></div>
                 <div className="slides">
                     <div className="slide-imag">
-                        <img src="./Images/Frame (2).png"
+                        <Image src="/Images/Frame (2).png"
                             alt="svg"
-                            loading='lazy'
-                            width='30px'
-                            height='5px'
+                            width={30}
+                            height={5}
                         />
                         ORDER TRACKING
                     </div>
