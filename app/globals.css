@@ -966,7 +966,7 @@ ul{
     width: 100%;
     padding: 0 28px 0 28px;
     margin-top: 70px;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1038,7 +1038,7 @@ ul{
   .section-four{
     width: 100%;
     box-sizing: border-box;
-    height: 477.75px;
+    height: 400.75px;
     margin-bottom: 50px;
   }
   
@@ -1172,13 +1172,13 @@ ul{
 
   .section7{
     width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 100px;
   }
   
   .section7 h2{
     font-size: 30px;
     line-height: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 70px;
   }
   
   .arrow2{
@@ -1190,15 +1190,13 @@ ul{
   }
 
   .section8{
-    height: 800px;
+    height: 620px;
     width: 100%;
-    margin: 0px;
+    margin: 0px 0 70px 0;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-wrap: wrap;
     align-items: center;
     gap: 10px;
-    margin-bottom: 70px;
   }
   
   .hel{
@@ -1242,7 +1240,7 @@ ul{
 
   .section9{
     width: 100%;
-    margin-bottom: 130px;
+    margin-bottom: 70px;
   }
   
   .section9 h3{
