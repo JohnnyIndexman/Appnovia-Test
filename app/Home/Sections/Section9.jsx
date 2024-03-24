@@ -12,9 +12,9 @@ function Section9() {
     const slide = Components().slide
 
     const settings = {
-    dots: true,
+    dots: false,
     infinite: true,
-    slidesToShow: 5.5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     autoplay: true,
     speed: 2000,
@@ -38,7 +38,7 @@ function Section9() {
                         key={s.id}>
 
                         <div className="slider-contain">
-                            <Image src={s.src}
+                            <Image className='imgs' src={s.src}
                                 alt="instagram-image"
                                 width={s.width}
                                 height={308.56}
@@ -54,7 +54,7 @@ function Section9() {
             <div className="insta-slide">
                 <div className="slides">
                     <div className="slide-imag">
-                        <Image src="/Images/Frame (1).png"
+                        <Image  src="/Images/Frame (1).png"
                             alt="svg"
                             width={24}
                             height={6.5}
