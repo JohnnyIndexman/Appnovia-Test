@@ -7,7 +7,7 @@ function section1() {
         <div className='section-one'>
              <Navbar /> 
 
-            <div className="divide"></div>
+            <div className="divided"></div>
 
             <div className="arrow">
                 <img src="./Images/svg (3).png" alt="arrow" />

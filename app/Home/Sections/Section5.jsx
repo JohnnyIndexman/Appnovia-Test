@@ -10,14 +10,27 @@ function Section5() {
                 height={28.59}
                 className='five-img'
             />
-            <p>Accusantium doloremque laudantium, totam rem aperiam. Sed ut<br />
-                perspiciatis unde omnis iste natus error sit voluptatem.
-            </p>
+            <div className="unde">
+                <Image className='img1' src="/Images/svg (3).png"
+                    alt="arrow"
+                    width={14}
+                    height={28.04}
+                />
+                <p>Accusantium doloremque laudantium, totam rem aperiam. Sed ut<br />
+                    perspiciatis unde omnis iste natus error sit voluptatem.
+                </p>
+                <Image className='img2' src="/Images/svg (4).png"
+                    alt="arrow"
+                    width={14}
+                    height={28.04}
+                />
+            </div>
+
             <Image src="/Images/svg (9).png"
-                        alt="client-logo"
-                        width={12.25}
-                        height={12.25}
-                    />
+                alt="client-logo"
+                width={12.25}
+                height={12.25}
+            />
 
             <div className="logos">
                 <Image src="/Images/client1.png"

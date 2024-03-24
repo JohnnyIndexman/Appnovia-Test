@@ -24,8 +24,8 @@ function Navbar() {
       };
     }, []);
   
-    const style = section
-      ? isMobile
+    const style =  section1 ?
+    isMobile
         ? {
             width: '100%',
             display: 'flex',
@@ -42,9 +42,9 @@ function Navbar() {
             boxSizing: 'border-box',
             borderBottom: '1px solid #000',
             height: '90px',
-            width: '1780px',
+            width: '100%',
             alignSelf: 'center',
-            padding: '0 70px',
+            padding: '0',
           }
       : {
           display: 'flex',
@@ -53,6 +53,7 @@ function Navbar() {
           boxSizing: 'border-box',
           borderBottom: '1px solid #000',
           height: '90px',
+          width: '100%'
         };
   
 

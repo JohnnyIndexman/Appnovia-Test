@@ -30,7 +30,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={not.className}>
-        {isHomePage ? null : <Navbar />}
+      { isHomePage? null : <Navbar />}
         {children}
         <Footer />
       </body>

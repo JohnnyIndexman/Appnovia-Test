@@ -59,7 +59,6 @@ function Footer() {
                         <h3>Get The Latest News</h3>
                         <div className="e-address">
                             <p>E-mail address</p>
-                            <input type="text" />
                             <img src="./Images/Vector.png"
                                 alt="arrow"
                                 loading='lazy'
