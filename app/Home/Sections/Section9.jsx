@@ -12,15 +12,45 @@ function Section9() {
     const slide = Components().slide
 
     const settings = {
-    dots: false,
-    infinite: true,
-    slidesToShow: 4,
-    slidesToScroll: 1,
-    autoplay: true,
-    speed: 2000,
-    autoplaySpeed: 3000,
-    cssEase: "linear"
-  };
+        dots: false,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 3000,
+        cssEase: "linear",
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true,
+                    autoplay: true,
+                    speed: 2000,
+                    autoplaySpeed: 3000,
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+                    initialSlide: 2,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
+    };
+    
 
 
 
@@ -29,10 +59,10 @@ function Section9() {
         <div className='section9'>
             <h3>Instagram</h3>
             <p>Follow us on @qodeinteractive</p>
-            
-             <div className="carousel-container"> 
-           <Slider {...settings}>
-                
+
+            <div className="carousel-container">
+                <Slider {...settings}>
+
 
                     {slide.map(s => (<div className="slider"
                         key={s.id}>
@@ -46,15 +76,15 @@ function Section9() {
                         </div>
 
                     </div>))}
-                </Slider> 
+                </Slider>
 
-            </div> 
-            
+            </div>
+
 
             <div className="insta-slide">
                 <div className="slides">
                     <div className="slide-imag">
-                        <Image  src="/Images/Frame (1).png"
+                        <Image src="/Images/Frame (1).png"
                             alt="svg"
                             width={24}
                             height={6.5}

@@ -664,12 +664,12 @@ p{
 /*section8*/
 .section8{
   height: 697.41px;
-  /* width: 100%; */
   margin: 0 70px 0 70px;
   display: flex;
   align-items: center;
   gap: 50px;
   margin-bottom: 130px;
+  overflow-y: hidden;
 }
 
 .hel{
@@ -679,6 +679,11 @@ p{
   justify-content: center;
   align-items: flex-start;
   width: 40%;
+  overflow-y: hidden;
+}
+
+.button{
+  overflow-y: hidden;
 }
 
 .hel h2{
