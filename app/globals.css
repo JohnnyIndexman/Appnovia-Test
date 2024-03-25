@@ -1095,6 +1095,15 @@ ul{
   .black h4, p{
     font-size: 13px;
   }
+
+  .bar{
+    gap: 22px;
+  }
+  
+  .bar a{
+    font-size: 10px;
+  }
+  
 /* section4 */
   .section-four{
     width: 100%;
