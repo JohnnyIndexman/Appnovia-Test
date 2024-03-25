@@ -11,7 +11,7 @@ function Section5() {
                 className='five-img'
             />
             <div className="unde">
-                <Image className='img1' src="/Images/svg (3).png"
+                <Image className='img2' src="/Images/svg (3).png"
                     alt="arrow"
                     width={14}
                     height={28.04}

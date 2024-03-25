@@ -945,7 +945,7 @@ ul{
 }
 
 @media(max-width : 768px){
-
+/* navbar */
   .first-nav nav{
     display: none;
   }
@@ -974,7 +974,7 @@ ul{
   .first-nav{
     width: 100%;
   }
-
+/* section1 */
   .section-one{
     width: 100%;
     height: 540px;
@@ -1014,7 +1014,7 @@ ul{
     color: #fff;
     margin-bottom: 50px;
   }
-  
+  /* section2 */
   .section-two{
     padding: 28px;
     width: 100%;
@@ -1022,7 +1022,7 @@ ul{
     font-size: 18px;
     line-height: 22px;
   }
-
+/* section3 */
   .section3{
     width: 100%;
     padding: 0 28px 0 28px;
@@ -1095,7 +1095,7 @@ ul{
   .black h4, p{
     font-size: 13px;
   }
-
+/* section4 */
   .section-four{
     width: 100%;
     box-sizing: border-box;
@@ -1134,10 +1134,14 @@ ul{
     width: 100%;
     margin-bottom: 70px;
   }
-  
+
+  .img2{
+    height: 14.12px;
+  }
+  /* section5 */
   .section5 p{
-    font-size: 20px;
-    line-height: 29px;
+    font-size: 18px;
+    line-height: 22px;
     margin-top: 20px;
     margin-bottom: 30px;
   }
@@ -1160,7 +1164,7 @@ ul{
     width: 85.4px;
     height: 17.65px;
   }
-
+/* section6 */
   .section6{
     box-sizing: border-box;
     display: flex;
@@ -1228,10 +1232,10 @@ ul{
   } 
   
   .blog h3{
-    font-size: 22px;
+    font-size: 18px;
     margin-bottom: 30px;
   }
-
+/* section7 */
   .section7{
     width: 100%;
     margin-bottom: 100px;
@@ -1250,7 +1254,7 @@ ul{
   .arrow2 img{
     width: 25px;
   }
-
+/* section8 */
   .section8{
     height: 620px;
     width: 100%;
@@ -1302,7 +1306,7 @@ ul{
     width: 100%;
     overflow-y: hidden;
   }
-
+/* section9 */
   .section9{
     width: 100%;
     margin-bottom: 70px;
@@ -1355,7 +1359,7 @@ ul{
     width: 25%;
     flex-direction: column;
   }
-
+/* footer */
   .footer1{
     width: 100%;
     height: 700px;
